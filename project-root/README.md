@@ -48,11 +48,13 @@ npm start
 #### Example Queries
 Fetch all room types
 * Method: GET
-* URL: http://localhost:3000/api/v1/types
+* URL (Localhost): http://localhost:3000/api/v1/types
+* URL:(live link): https://learnable-hotel-management-api.onrender.com/api/v1/rooms/types
 
 Create a new room type
 * Method: POST
-* URL: http://localhost:3000/api/v1/types
+* URL (Localhost): http://localhost:3000/api/v1/types
+* URL (live link): https://learnable-hotel-management-api.onrender.com/api/v1/rooms/types
 * Request Body:
 ```bash
 {
@@ -62,8 +64,8 @@ Create a new room type
 
 Delete a room by ID
 * Method: DELETE
-* URL: localhost:3000/api/v1/rooms/65f9e733a2c04a41b2fb874f (http://localhost:3000/api/v1/rooms/{roomId})
-
+* URL (localhost): localhost:3000/api/v1/rooms/65f9e733a2c04a41b2fb874f (http://localhost:3000/api/v1/rooms/{roomId})
+* URL (live link): https://learnable-hotel-management-api.onrender.com/api/v1/rooms/65f9e733a2c04a41b2fb874f
 
 ### Using CURL
 1. Fetch all room types (GET request):
